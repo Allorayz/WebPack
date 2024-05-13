@@ -1,6 +1,9 @@
-/node_modules/
+node_modules
 /dist/
+/dist
+dist
 /lesson1-npm/task1-npm-scripts/dist/
 /shelf/
 /workspace.xml
 /httpRequests/
+/lesson1-npm/task2-todo-list-npm/dist
