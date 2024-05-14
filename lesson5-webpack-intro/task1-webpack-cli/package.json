@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:scripts": "webpack ./src/my-index.js --mode=production",
-    "watch:scripts": "webpack ./src/my-index.js --mode=development --devtool eval-source-maps -w"
+    "build:scripts": "webpack ./src/my-index.js -p",
+    "watch:scripts": "webpack ./src/my-index.js -d --devtool eval-source-maps -w"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^5.91.0",
-    "webpack-cli": "^5.1.4"
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   }
 }
